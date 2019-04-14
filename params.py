@@ -1,5 +1,5 @@
 def GetImageSize():
-    return 128
+    return 256
 
 def GetChannelsNum():
     return 3;
