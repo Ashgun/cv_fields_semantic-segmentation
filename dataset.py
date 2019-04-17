@@ -5,6 +5,11 @@ from sklearn.utils import shuffle
 import numpy as np
 import csv
 
+import random
+from datetime import datetime
+
+random.seed(datetime.now())
+
 def read_data_set(data_set_info_file_path):
     image_names = []
     mask_names = []
