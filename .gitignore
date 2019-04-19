@@ -3,3 +3,5 @@ validation/
 *.h5
 *.pyc
 .ipynb_checkpoints/
+10000/
+4000/
