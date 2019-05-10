@@ -14,7 +14,7 @@ def read_data_set(data_set_info_file_path):
     image_names = []
     mask_names = []
 
-    images_fns = glob.glob(os.path.join(data_set_info_file_path, '*.png'))
+    images_fns = glob.glob(os.path.join(data_set_info_file_path, 'sample*.png'))
     images_fns = [ x for x in images_fns if 'mask' not in x]
 
     for x in images_fns:

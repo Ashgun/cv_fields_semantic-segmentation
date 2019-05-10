@@ -5,7 +5,7 @@ def GetChannelsNum():
     return 3;
 
 def GetClasses():
-    return ['resources']
+    return ['soil', 'healthy', 'diseased', "others"]
 
 def GetClassesCount():
     return len(GetClasses())
@@ -22,3 +22,6 @@ def GetDataDirectory():
 source_data_path = GetDataDirectory() + '/src_imgs/'
 training_data_path = GetDataDirectory() + '/training/'
 validation_data_path = GetDataDirectory() + '/validation/'
+
+average_image = training_data_path + "/average.png"
+data_info_file = training_data_path + "/info.json"
